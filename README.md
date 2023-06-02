@@ -1,7 +1,7 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/fedetomassini/PalindromeOrNot/main/public/website.ico" width="100" alt="Logo"/><br/>
-	<a href="https://github.com/fedetomassini/PalindromeOrNot">World Weather</a><br/>
-  <span>A weather search application that allows users to view current weather conditions in cities across the globe.</span>
+	<img src="https://raw.githubusercontent.com/fedetomassini/PalindromeOrNot/public/website.ico" width="100" alt="Logo"/><br/>
+	<a href="https://github.com/fedetomassini/PalindromeOrNot">Palindrome Or Not?</a><br/>
+  <span>Check if somethig is Palindrome or not.</span>
 </h3>
 
 <p align="center">
