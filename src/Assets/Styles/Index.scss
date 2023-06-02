@@ -1,0 +1,22 @@
+// # -- Main Styles -- # \\
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    cursor: default;
+    background-color: #393646;
+    font-family: 'Space Grotesk', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-track{
+    background-color: #20262E;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #E96479;
+}

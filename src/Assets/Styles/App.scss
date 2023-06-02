@@ -1,0 +1,51 @@
+// # -- App Styles -- # \\
+
+.container{
+    #web_title{
+        margin-top: 20px;
+        font-size: 25pt;
+        font-weight: 700;
+        text-align: center;
+        color: #FFABAB !important;
+    }
+    .palindrome_link{
+        color: #FFABAB;
+        text-underline-offset: 5px;
+        text-decoration-style: dashed;
+        &:hover{
+            color: #F4EEE0;
+            transition: all ease-in-out 175ms;
+            text-underline-offset: 8px;
+        }
+    }
+    img{
+        display: flex;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 12px;
+        &:hover{
+            transition: all ease-in-out 200ms;
+            scale: 105%;
+        }
+    }
+    .copyright{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #FFABAB;
+        a{
+            color: #6096B4;
+            text-underline-offset: 7px;
+            text-decoration-style: dashed;
+            &:hover{
+                color: #F4EEE0;
+                transition: all ease-in-out 175ms;
+                text-underline-offset: 8px;
+            }
+        }
+    }
+}
+
+
+
