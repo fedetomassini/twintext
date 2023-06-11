@@ -8,7 +8,7 @@ function isPalindrome(string) {
 	// console.info(string, invertedString); 
 	// Just the string and invertedString
 	
-	if (string === '' || null) {
+	if (string === '' || null || string.match(/[1-9]/i)) {
 		return null;
 	} else if (string.length >= 2 && string === invertedString && string.match(/[a-z]/i)) {
 		return true;
@@ -16,8 +16,6 @@ function isPalindrome(string) {
 		return false;
 	}
 }
-
-
 
 export default function SearchBar(){
 
@@ -67,12 +65,11 @@ export default function SearchBar(){
 		<div className="sentenceMessageInputs">{inputValue + " " + " " + invertedValue}</div>
 			
 			{sentenceIsPalindrome === null ? (
-				<div className="sentenceMessageNull"><i className="fa-regular fa-square-full"></i> Hey, you need to write something... <i className="fa-regular fa-square-full"></i></div>
+				<div className="sentenceMessageNull"><i className="fa-solid fa-circle-info"></i> Hey, you need to write something... <i className="fa-regular fa-square-full"></i></div>
 			) : sentenceIsPalindrome ?  (
-				<div className="sentenceMessageTrue"><i className="fa-regular fa-circle-check"></i> Yep, that's a Palindrome! {" "} <i className="fa-regular fa-circle-check"></i>
-				</div>
+				<div className="sentenceMessageTrue"><i className="fa-solid fa-circle-info"></i> Yep, that's a Palindrome! {" "}</div>
 			) : (
-				<div className="sentenceMessageFalse"><i className="fa-regular fa-circle-xmark"></i> Nope, that's not a Palindrome! {" "} <i className="fa-regular fa-circle-xmark"></i></div>
+				<div className="sentenceMessageFalse"><i className="fa-solid fa-circle-info"></i> Nope, that's not a Palindrome! {" "} </div>
 			)}
 		</section>
 

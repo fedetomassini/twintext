@@ -1,1 +1,7 @@
+# - .gitignore for PalindromeOrNot - #
 
+#dependencies
+/node_modules
+
+#misc
+/logs

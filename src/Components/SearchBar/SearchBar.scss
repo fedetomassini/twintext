@@ -27,12 +27,19 @@ $navbar_background: #393646;
                 width: 20px;
                 border-radius: 50%;
                 background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+                &:hover{
+                    cursor: pointer;
+                }
             }
         }
         button{
             border-radius: 3px;
             color: #e8e8e8;
             background-color: #3C6255;
+            &:active{
+                transition: all ease-in-out 50ms;
+                scale: 95%;
+            }
         }
     }
 }
